@@ -32,7 +32,7 @@ Jenis kedua adalah infrared jarak menengah. Jenis infrared ini memiliki panjang 
 Jenis infrared ketiga adalah infrared jarak jauh. Jenis infrared ini memiliki panjang gelombang 10 µm sampai 100 µm. Jenis alat yang memanfaatkan infrared jarak jauh adalah beberapa alat kesehatan.
 
 ## Contoh Infrared
-= Thermometer
+- Thermometer
 - Room Temperatur
 - NightScoop/NightVision
 - Sensor Alarm
