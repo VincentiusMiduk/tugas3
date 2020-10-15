@@ -70,4 +70,23 @@ WIFI adalah produk jaringan area local nirkabel atau yang biasa disebut dengan W
 Untuk dapat menggunakan WIFI, sebuah perangkat keras seperti Komputer, Laptop, Smartphone, Tablet, dan Pemutar audio digital membutuhkan sebuah titik akses jaringan nirkabel sehingga internet dapat digunakan. Titik Akses ini memiliki jangkauan tertentu tergantung dengan perangkat yang digunakan dan luasnya bidang/ruangan. Untuk Cakupan wilayah yang lebih luas dibutuhkan beberapa titik akses dengan cakupan yang saling tumpang tindih. Kunci yang memungkinkan komunikasi dalam jaringan wifi adalah Sinyal Radio. Wifi mengkoneksikan perangkat dengan internet tanpa menggunakan kabel.
 
 # Encoding
+Encoding adalah proses mengubah pikiran menjadi komunikasi. Encoder menggunakan ‘media’ untuk mengirim pesan, panggilan telepon, email, pesan teks, pertemuan tatap muka, atau alat komunikasi lainnya. Tingkat pemikiran sadar yang masuk kepesan penyandian dapat bervariasi.
+Dalam dunia komputer, apa yang dilakukan encoding karakter bit adalah memisahkan bit ini menjadi masing-masing kelompok n bit, dan menetapkan simbol untuk setiap urutan yang diperoleh. Dengan cara sederhana, pengkodean karakter atau rangkaian karakter dapat dianggap sebagai tabel terjemahan, dimana setiap kelompok bit terkait dengan satu karakter.
+Misalnya, pengkodean karakter 8-bit dapat mewakili urutan “10010101” sebagai huruf “a”, urutan “01101100” sebagai simbol “&”, dan seterusnya. Jika Anda melihat dari dekat, Anda akan melihat bahwa tidak ada kode yang diulang.
 
+### Macam-Macam Kode
+1.Kode Baudot
+Berawal dari kode morse. Ada kode 4-an, 5-an, 6-an, dan 8-an yang digunakan untuk pengiriman telegraph yang disimpan di pita berupa lubang tutup. Untuk lubang sebanyak 6x berturut-turut disebut sebagai kode 6-an.
+
+2.Standard Code (Americank figure. for Information Interchange).
+Didefinisikan sebagai kode 7 bit (sehingga dapat dibuat 128 karakter). Masing-masing yaitu 0-32 untuk karakter kontrol (unprintable) dan 32-127 untuk karakter yang tercetak (printable). Dalam transmisi synkron tiga karakter terdiri dari 10 atau 11 bit : 1 bit awal, 7 bit data, 1 atau 2 bit akhir dan 1 bit paritas.
+
+3Kode 4 atau Kode 8.
+Kombinasi yang diijinkan adalah 4 bit “1” dan 4 bit “0” sehingga dapat dibuat kombinasi 70 karakter.
+
+4Kode BCD (binary code desimal).
+Terdiri dari 6 bit perkarakter dengan kombinasi 64 karakter. Untuk asynkron terdiri dari 9 bit: 1 bit awal, 6 bit data, 1 bit paritas dan 1 bit akhir.
+
+5Kode EBCID.
+Menggunakan 8 bit perkarakter dengan 256 kombinasi karakter.
+Asynkron: 1 bit awal, 8 bit data, 1 bit paritas dan 1 bit akhir.
