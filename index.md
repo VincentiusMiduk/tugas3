@@ -74,19 +74,19 @@ Encoding adalah proses mengubah pikiran menjadi komunikasi. Encoder menggunakan 
 Dalam dunia komputer, apa yang dilakukan encoding karakter bit adalah memisahkan bit ini menjadi masing-masing kelompok n bit, dan menetapkan simbol untuk setiap urutan yang diperoleh. Dengan cara sederhana, pengkodean karakter atau rangkaian karakter dapat dianggap sebagai tabel terjemahan, dimana setiap kelompok bit terkait dengan satu karakter.
 Misalnya, pengkodean karakter 8-bit dapat mewakili urutan “10010101” sebagai huruf “a”, urutan “01101100” sebagai simbol “&”, dan seterusnya. Jika Anda melihat dari dekat, Anda akan melihat bahwa tidak ada kode yang diulang.
 
-### Macam-Macam Kode
-1.Kode Baudot
+## Macam-Macam Kode
+### 1.Kode Baudot
 Berawal dari kode morse. Ada kode 4-an, 5-an, 6-an, dan 8-an yang digunakan untuk pengiriman telegraph yang disimpan di pita berupa lubang tutup. Untuk lubang sebanyak 6x berturut-turut disebut sebagai kode 6-an.
 
-2.Standard Code (Americank figure. for Information Interchange).
+### 2.Standard Code (Americank figure. for Information Interchange).
 Didefinisikan sebagai kode 7 bit (sehingga dapat dibuat 128 karakter). Masing-masing yaitu 0-32 untuk karakter kontrol (unprintable) dan 32-127 untuk karakter yang tercetak (printable). Dalam transmisi synkron tiga karakter terdiri dari 10 atau 11 bit : 1 bit awal, 7 bit data, 1 atau 2 bit akhir dan 1 bit paritas.
 
-3Kode 4 atau Kode 8.
+### 3.Kode 4 atau Kode 8.
 Kombinasi yang diijinkan adalah 4 bit “1” dan 4 bit “0” sehingga dapat dibuat kombinasi 70 karakter.
 
-4Kode BCD (binary code desimal).
+### 4.Kode BCD (binary code desimal).
 Terdiri dari 6 bit perkarakter dengan kombinasi 64 karakter. Untuk asynkron terdiri dari 9 bit: 1 bit awal, 6 bit data, 1 bit paritas dan 1 bit akhir.
 
-5Kode EBCID.
+### 5.Kode EBCID.
 Menggunakan 8 bit perkarakter dengan 256 kombinasi karakter.
 Asynkron: 1 bit awal, 8 bit data, 1 bit paritas dan 1 bit akhir.
